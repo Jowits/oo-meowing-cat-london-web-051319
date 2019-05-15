@@ -1,8 +1,10 @@
 ## code your solution here.
 class Cat
   attr_accessor :meow
+  attr_accessor :name
 
 end
 
+maru.name = "Maru"
 maru = Cat.new
 maru.meow = "Meow"
